@@ -1,0 +1,313 @@
+.we-provide {
+  color: #007932;
+}
+.services-we-provide-container {
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  max-width: 1140px;
+}
+.heading-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 408.40997314453125px 0 408.59002685546875px;
+  z-index: 0;
+}
+.pseudo {
+  position: absolute;
+  margin: 0 !important;
+  top: 56px;
+  left: 561px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+  width: 48px;
+  height: 2px;
+  z-index: 1;
+}
+.divcol-md-12,
+.divrow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.divcol-md-12 {
+  align-self: stretch;
+  padding: 0 15px var(--padding-3xs);
+  position: relative;
+  min-height: 1px;
+}
+.divrow {
+  position: absolute;
+  width: calc(100% + 30px);
+  top: 0;
+  right: -15px;
+  left: -15px;
+  padding: 0 0 var(--padding-5xl);
+}
+.we-offer-total {
+  margin: 0;
+}
+.we-offer-total-container {
+  position: relative;
+  line-height: 30px;
+}
+.emphasis,
+.plead {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.plead {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20.79296875px 0 21.20703125px;
+  box-sizing: border-box;
+  font-size: 21px;
+  color: var(--color-honeydew-100);
+  font-family: var(--font-source-sans-pro);
+}
+.recycling-of-e-waste {
+  position: relative;
+  line-height: 24px;
+}
+.heading-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 86.91000366210938px 0 87.08999633789062px;
+}
+.link5 {
+  position: absolute;
+  top: 124px;
+  left: calc(50% - 180px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 var(--padding-8xl);
+}
+.envirocare-is-engage-container {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 175.4px);
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-source-sans-pro);
+  color: var(--color-honeydew-100);
+}
+.recycling-e-waste-1jpg-icon {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  max-width: 120px;
+}
+.link6 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 60px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divicon-box-wrap {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 0;
+  right: 780px;
+  bottom: 319px;
+  left: 0;
+}
+.heading-51 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 78.89500427246094px 0 79.10499572753906px;
+}
+.link7 {
+  position: absolute;
+  top: 124px;
+  left: calc(50% - 192.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 var(--padding-8xl);
+}
+.divicon-box-wrap1 {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 0;
+  right: 390px;
+  bottom: 319px;
+  left: 390px;
+}
+.heading-52 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 121.9000015258789px 0 122.0999984741211px;
+}
+.we-support-large-container {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 178.4px);
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-source-sans-pro);
+  color: var(--color-honeydew-100);
+}
+.recovery-refining-metals-2jpg-icon {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.divicon-box-wrap2 {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 0;
+  right: 0;
+  bottom: 319px;
+  left: 780px;
+}
+.heading-53 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 101.8949966430664px 0 102.1050033569336px;
+}
+.envirocare-offer-services-container {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 175.91px);
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-source-sans-pro);
+  color: var(--color-honeydew-100);
+}
+.data-distructionjpg-icon {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  max-width: 120px;
+}
+.divicon-box-wrap3 {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 283px;
+  right: 780px;
+  bottom: 36px;
+  left: 0;
+}
+.heading-54 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 34.910003662109375px 0 35.089996337890625px;
+}
+.e-waste-consist-more-container {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 169.91px);
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-source-sans-pro);
+  color: var(--color-honeydew-100);
+}
+.divicon-box-wrap4 {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 283px;
+  right: 390px;
+  bottom: 36px;
+  left: 390px;
+}
+.heading-55 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 121.4000015258789px 0 121.5999984741211px;
+}
+.envirocare-has-its-container {
+  position: absolute;
+  top: 175px;
+  left: calc(50% - 173.41px);
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-family: var(--font-source-sans-pro);
+  color: var(--color-honeydew-100);
+}
+.divicon-box-wrap5 {
+  position: absolute;
+  height: calc(100% - 319px);
+  width: calc(100% - 780px);
+  top: 283px;
+  right: 0;
+  bottom: 36px;
+  left: 780px;
+}
+.divrow1 {
+  position: absolute;
+  width: calc(100% + 30px);
+  top: 190px;
+  right: -15px;
+  left: -15px;
+  height: 566px;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+}
+.divpgc-14-3-0 {
+  position: absolute;
+  top: 55px;
+  left: 95px;
+  width: 1140px;
+  height: 756px;
+}
+.divpgc-14-3-0-wrapper {
+  position: absolute;
+  top: 93px;
+  left: 43px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen);
+  width: 1321px;
+  height: 857px;
+  overflow: hidden;
+}
+.frame-root {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-honeydew-100);
+  width: 100%;
+  height: 1044px;
+  text-align: center;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: var(--font-montserrat);
+}

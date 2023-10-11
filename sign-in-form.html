@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sign-in-form.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Satoshi:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=M PLUS Code Latin:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-in-form1">
+      <div class="sign-in-form-child9"></div>
+      <div class="sign-in-form-child10"></div>
+      <b class="glad-to-see">Glad to see you again!</b>
+      <div class="sign-in-form-child11"></div>
+      <div class="sign-in-form-child12"></div>
+      <div class="email-address"><input type="text" placeholder="Email Address" style="border:none; outline: none;" required></div>
+      <div class="password1"><input type="password" placeholder="Password" style="border:none; outline: none;" required></div>
+      <div class="sign-in-form-child13" id="rectangle4"></div>
+      <b class="sign-in3"><a href="after_sign_in.html" style="text-decoration: none; color: #71bc68;">SIGN IN</a></b>
+      <div class="dont-have-an-container">
+        Dont Have An Account?
+        <span class="sign-up1">Sign Up</span>
+      </div>
+      <div class="sign-in-form-child14"></div>
+      <div class="navbar-logo-left2">
+        <div class="navbarcontainer2">
+          <div class="navbar-content2">
+            <div class="navbar-brand2">
+              <div class="logo5">
+                <div class="logo6">
+                  <img class="vector-icon6" alt="" src="./public/vector5.svg" />
+
+                  <b class="e-treasure-trove3" style="width: 200px;">E-Treasure Trove</b>
+                </div>
+              </div>
+            </div>
+            <div class="navbar-menu2">
+              <div class="navbar-link8" id="navbarLinkContainer">
+                <div class="home2">Home</div>
+              </div>
+              <div class="navbar-link9">
+                <div class="home2">Locate</div>
+              </div>
+              <div class="navbar-link9">
+                <div class="home2">Blog</div>
+              </div>
+              <div class="navbar-link9">
+                <div class="home2">About us</div>
+              </div>
+              <div class="button7" id="buttonContainer">
+                <div class="home2"><a href="sign-in-form.html" style="text-decoration: none; color: #71bc68;">SIGN IN</a></div>
+              </div>
+              <div class="button8">
+                <div class="home2"><a href="sign-in-form1.html" style="text-decoration: none; color:var(--color-honeydew-100);">REGISTER</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="languange2">
+          <div class="text2">
+            <img class="united-icon2" alt="" src="./public/india flag.jpg" />
+            <div class="eng-us">
+              <select name="select" id="country">
+                <option value="Eng(In)">Eng(In)</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Telugu">Telugu</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Germany">Germany</option>
+                <option value="Oriya">Oriya</option>
+                <option value="Punjabi">Punjabi</option>
+                <option value="Nepali">Nepali</option>
+                <option value="Sindhi">Sindhi</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          // Please sync "Profile page " to the project
+        });
+      }
+      
+      var navbarLinkContainer = document.getElementById("navbarLinkContainer");
+      if (navbarLinkContainer) {
+        navbarLinkContainer.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='heroHeadingLeft']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./sign-in-form1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
